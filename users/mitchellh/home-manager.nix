@@ -104,6 +104,11 @@ in {
 
 	programs.neovim.enable = true;
 
+	programs.fzf = {
+		enable = true;
+		defaultCommand = "rg --files --hidden";
+	};
+
   programs.bash = {
     enable = true;
     shellOptions = [];
