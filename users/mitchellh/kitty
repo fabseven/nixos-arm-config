@@ -27,40 +27,39 @@ map super+ctrl+n        scroll_to_prompt 1
 # Based on https://github.com/sonph/onehalf
 # By https://github.com/dbinary
 
-foreground            #dcdfe4
-background            #282c34
-selection_foreground  #000000
-selection_background  #FFFACD
-url_color             #0087BD
+foreground            #d0d0d0
+background            #202020
+selection_foreground  #202020
+selection_background  #303030
 
 # black
-color0   #282c34
-color8   #5d677a
+color0   #151515
+color8   #505050
 
 # red
-color1   #e06c75
-color9   #e06c75
+color1   #ac4142
+color9   #ac4142
 
 # green
-color2   #98c379
-color10  #98c379
+color2   #7e8d50
+color10  #7e8d50
 
 # yellow
-color3   #e5c07b
-color11  #e5c07b
+color3   #e5b566
+color11  #e5b566
 
 # blue
-color4  #61afef
-color12 #61afef
+color4  #6c99ba
+color12 #6c99ba
 
 # magenta
-color5   #c678dd
-color13  #c678dd
+color5   #9e4e85
+color13  #9e4e85
 
 # cyan
-color6   #56b6c2
-color14  #56b6c2
+color6   #7dd5cf
+color14  #7dd5cf
 
 # white
-color7   #dcdfe4
-color15  #dcdfe4
+color7   #d0d0d0
+color15  #f5f5f5
