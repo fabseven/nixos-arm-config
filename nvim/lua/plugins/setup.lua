@@ -90,10 +90,10 @@ return require("packer").startup(function()
 			"nvim-tree/nvim-web-devicons",
 		},
 	}
-	--[[ use {
+	use {
 		"nvim-telescope/telescope-fzf-native.nvim",
 		run = "make",
-	} ]]
+	}
 	use {
 		"nvim-telescope/telescope.nvim",
 		requires = {
