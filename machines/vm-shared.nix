@@ -118,6 +118,9 @@ in {
     packages = [
       pkgs.fira-code
       pkgs.jetbrains-mono
+			pkgs.noto-fonts-emoji
+			pkgs.nerdfonts
+			pkgs.fira-code-nerdfont
     ];
   };
 
