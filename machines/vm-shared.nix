@@ -130,6 +130,37 @@ in {
     cachix
     gnumake
 		libgcc
+		gcc
+		python3
+		git
+		nodejs
+		go
+		cargo
+		luarocks
+		stylua
+		tree-sitter
+		jdk
+		ruby
+		rubyPackages_3_3.solargraph
+		sbt
+		scala
+		powershell
+		coursier
+		metals
+		scala-cli
+		corepack
+		dart-sass
+		delta
+		redis
+		ruff-lsp
+		pyright
+		rustc
+		rust-analyzer
+		taplo
+		marksman
+		http-server
+		meld
+		ansible
     killall
     niv
     rxvt_unicode
