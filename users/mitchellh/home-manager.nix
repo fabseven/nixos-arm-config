@@ -34,7 +34,6 @@ in {
     pkgs.bat
     pkgs.eza
     pkgs.fd
-    pkgs.fzf
     pkgs.gh
     pkgs.htop
     pkgs.jq
