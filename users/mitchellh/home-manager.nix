@@ -42,6 +42,8 @@ in {
     pkgs.sentry-cli
     pkgs.tree
     pkgs.watch
+		pkgs.emacs
+		pkgs.vscode
 
     pkgs.gopls
     pkgs.zigpkgs."0.13.0"
