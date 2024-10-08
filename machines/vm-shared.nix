@@ -71,7 +71,7 @@ in {
   };
 
   # setup windowing environment
-  services.xserver = if linuxGnome then {
+  services = if linuxGnome then {
     enable = true;
     xkb.layout = "us";
     desktopManager.gnome.enable = true;
