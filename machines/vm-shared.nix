@@ -158,6 +158,8 @@ in {
 		rust-analyzer
 		taplo
 		marksman
+		btop
+		fastfetch
 		http-server
 		meld
 		ansible
