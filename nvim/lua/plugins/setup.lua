@@ -90,10 +90,10 @@ return require("packer").startup(function()
 			"nvim-tree/nvim-web-devicons",
 		},
 	}
-	use {
+	--[[ use {
 		"nvim-telescope/telescope-fzf-native.nvim",
-		run = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release)",
-	}
+		run = "make",
+	} ]]
 	use {
 		"nvim-telescope/telescope.nvim",
 		requires = {
