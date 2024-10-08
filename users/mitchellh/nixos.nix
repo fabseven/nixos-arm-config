@@ -7,6 +7,10 @@
   # Add ~/.local/bin to PATH
   environment.localBinInPath = true;
 
+	imports = [
+		./neovim.nix
+	];
+
   # Since we're using fish as our shell
   programs.fish.enable = true;
 
@@ -19,6 +23,5 @@
   };
 
   nixpkgs.overlays = import ../../lib/overlays.nix ++ [
-    (import ./neovim.nix { inherit inputs; })
   ];
 }
