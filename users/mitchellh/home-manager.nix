@@ -79,6 +79,8 @@ in {
   home.file = {
     ".gdbinit".source = ./gdbinit;
     ".inputrc".source = ./inputrc;
+	  ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink
+			"${config.home.homeDirectory}/nixos-arm-config/nvim";
   } // (if isDarwin then {
     "Library/Application Support/jj/config.toml".source = ./jujutsu.toml;
   } else {});
@@ -281,8 +283,6 @@ in {
     };
   };
 
-	home.file.".config/nvim".source = config.lib.file.mkOutOfStoreSymlink
-		"${config.home.homeDirectory}/nixos-arm-config/nvim";
 
   services.gpg-agent = {
     enable = isLinux;
