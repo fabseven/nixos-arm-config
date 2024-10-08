@@ -134,6 +134,8 @@ in {
     rxvt_unicode
     xclip
 		fzf
+		wget
+		unzip
 
     # For hypervisors that support auto-resizing, this script forces it.
     # I've noticed not everyone listens to the udev events so this is a hack.
