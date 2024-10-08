@@ -53,7 +53,7 @@ floating_modifier $mod
 bindsym $mod+d exec rofi -show drun
 
 # start a terminal
-bindsym $mod+n exec kitty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
