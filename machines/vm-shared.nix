@@ -129,6 +129,7 @@ in {
   environment.systemPackages = with pkgs; [
     cachix
     gnumake
+		libgcc
     killall
     niv
     rxvt_unicode
