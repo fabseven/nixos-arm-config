@@ -52,14 +52,9 @@ bindsym $mod+o exec rofi -show run
 
 # start a terminal
 bindsym $mod+n exec kitty
-bindsym $mod+d split h
-bindsym $mod+Shift+d split v
-
-# temp, hacking on a tty
-bindsym $mod+Shift+n exec /home/mitchellh/bin/devtty --config-file=/home/mitchellh/.config/devtty/config
 
 # kill focused window
-bindsym $mod+w kill
+bindsym $mod+q kill
 
 # change focus
 bindsym $mod+h focus left
@@ -74,7 +69,7 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # enter fullscreen mode for the focused container
-bindsym $mod+Shift+f fullscreen toggle
+bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+Shift+s layout stacking
@@ -82,7 +77,7 @@ bindsym $mod+Shift+w layout tabbed
 bindsym $mod+Shift+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+d floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
