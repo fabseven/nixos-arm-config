@@ -102,6 +102,8 @@ in {
 
   programs.gpg.enable = !isDarwin;
 
+	programs.neovim.enable = true;
+
   programs.bash = {
     enable = true;
     shellOptions = [];
