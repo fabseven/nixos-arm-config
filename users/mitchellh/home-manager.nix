@@ -168,10 +168,6 @@ in {
     ];
   };
 
-	programs.ssh = {
-		enable = true;
-	};
-
   programs.git = {
     enable = true;
     userName = "Aleksi";
