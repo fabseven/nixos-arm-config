@@ -35,6 +35,8 @@ parse_git_branch() {
     git symbolic-ref HEAD 2> /dev/null | sed 's#\(.*\)\/\([^\/]*\)$# \2#'
 }
 
+xset r rate 250 50
+
 # Set default prompt if interactive
 test -n "$PS1" &&
 prompt_color
