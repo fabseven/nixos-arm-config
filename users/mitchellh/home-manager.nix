@@ -127,21 +127,6 @@ in {
     };
   };
 
-  programs.direnv= {
-    enable = true;
-
-    config = {
-      whitelist = {
-        prefix= [
-          "$HOME/code/go/src/github.com/hashicorp"
-          "$HOME/code/go/src/github.com/mitchellh"
-        ];
-
-        exact = ["$HOME/.envrc"];
-      };
-    };
-  };
-
   programs.fish = {
     enable = true;
     interactiveShellInit = lib.strings.concatStrings (lib.strings.intersperse "\n" ([
@@ -183,12 +168,16 @@ in {
     ];
   };
 
+	programs.ssh = {
+		enable = true;
+	};
+
   programs.git = {
     enable = true;
-    userName = "Mitchell Hashimoto";
-    userEmail = "m@mitchellh.com";
+    userName = "Aleksi";
+    userEmail = "fabbycrafted@gmail.com";
     signing = {
-      key = "523D5DC389D273BC";
+      key = "10516E721188A83A";
       signByDefault = true;
     };
     aliases = {
@@ -201,7 +190,7 @@ in {
       color.ui = true;
       core.askPass = ""; # needs to be empty to use terminal for ask pass
       credential.helper = "store"; # want to make this more secure
-      github.user = "mitchellh";
+      github.user = "fabseven";
       push.default = "tracking";
       init.defaultBranch = "main";
     };
@@ -214,7 +203,7 @@ in {
   };
 
   programs.jujutsu = {
-    enable = true;
+    enable = false;
 
     # I don't use "settings" because the path is wrong on macOS at
     # the time of writing this.
