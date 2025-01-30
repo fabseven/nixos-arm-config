@@ -43,6 +43,7 @@ in {
     pkgs.watch
 		pkgs.emacs
 		pkgs.vscode
+		pkgs.helix
 
     pkgs.gopls
     pkgs.zigpkgs."0.13.0"
@@ -78,6 +79,8 @@ in {
   home.file = {
     ".gdbinit".source = ./gdbinit;
     ".inputrc".source = ./inputrc;
+	  ".config/helix".source = config.lib.file.mkOutOfStoreSymlink
+			"${config.home.homeDirectory}/nixos-arm-config/helix";
 	  ".config/nvim".source = config.lib.file.mkOutOfStoreSymlink
 			"${config.home.homeDirectory}/nixos-arm-config/nvim";
   } // (if isDarwin then {
