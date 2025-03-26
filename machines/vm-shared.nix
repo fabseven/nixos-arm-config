@@ -120,6 +120,7 @@ in {
       pkgs.fira-code
       pkgs.jetbrains-mono
 			pkgs.noto-fonts-emoji
+			pkgs.geist-font
 			pkgs.nerdfonts
 			pkgs.fira-code-nerdfont
     ];

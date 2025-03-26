@@ -1,11 +1,22 @@
+font-family = Geist Font
+font-style = Regular
 font-size = 12
-font-family = JetBrains Mono
+
 background-opacity = 0.95
-background-blur-radius = 20
+
+cursor-style = block
+cursor-style-blink = false
+
+shell-integration = fish
+shell-integration-features = no-cursor
+
+macos-titlebar-style = tabs
 macos-non-native-fullscreen = visible-menu
 macos-option-as-alt = left
 mouse-hide-while-typing = true
 
+keybind = ctrl+shift+r=new_split:right
+keybind = ctrl+shift+d=new_split:down
 # Keybinds to match macOS since this is a VM
 keybind = super+c=copy_to_clipboard
 keybind = super+v=paste_from_clipboard
@@ -23,7 +34,38 @@ keybind = super+shift+w=close_window
 keybind = super+t=new_tab
 keybind = super+shift+left_bracket=previous_tab
 keybind = super+shift+right_bracket=next_tab
-keybind = super+d=new_split:right
-keybind = super+shift+d=new_split:down
 keybind = super+right_bracket=goto_split:next
 keybind = super+left_bracket=goto_split:previous
+
+confirm-close-surface = false
+clipboard-paste-protection = false
+unfocused-split-opacity = 1.0
+
+working-directory = home
+clipboard-read = allow
+clipboard-write = allow
+
+gtk-titlebar = false
+
+theme = MaterialOcean
+background = #0c0c0c
+foreground = #8f93a2
+selection-background = #1f2233
+selection-foreground = #8f93a2
+cursor-color = #5D5D5C
+palette = 0=#546e7a
+palette = 1=#ff5370
+palette = 2=#c3e88d
+palette = 3=#ffcb6b
+palette = 4=#82aaff
+palette = 5=#c792ea
+palette = 6=#89ddff
+palette = 7=#ffffff
+palette = 8=#546e7a
+palette = 9=#ff5370
+palette = 10=#c3e88d
+palette = 11=#ffcb6b
+palette = 12=#82aaff
+palette = 13=#c792ea
+palette = 14=#89ddff
+palette = 15=#ffffff
