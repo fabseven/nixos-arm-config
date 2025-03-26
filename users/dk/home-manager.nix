@@ -45,10 +45,7 @@ in {
 		pkgs.vscode
 		pkgs.ghostty
 		pkgs.helix
-
     pkgs.gopls
-    pkgs.zigpkgs."0.13.0"
-
     # Node is required for Copilot.vim
     pkgs.nodejs
   ] ++ (lib.optionals isDarwin [
