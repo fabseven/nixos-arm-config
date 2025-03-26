@@ -10,6 +10,12 @@
   # Since we're using fish as our shell
   programs.fish.enable = true;
 
+	nix.gc = {
+		automatic = true;
+		randomizedDelaySec = "14m";
+		options = "--delete-older-than 10d";
+	};
+
   users.users.dk = {
     isNormalUser = true;
     home = "/home/dk";

@@ -154,6 +154,7 @@ in {
 		delta
 		redis
 		ruff-lsp
+		sqlite
 		pyright
 		rustc
 		rust-analyzer

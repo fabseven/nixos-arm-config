@@ -46,6 +46,8 @@ in {
 		pkgs.ghostty
 		pkgs.helix
     pkgs.gopls
+		pkgs.lazygit
+		pkgs.lazydocker
     # Node is required for Copilot.vim
     pkgs.nodejs
   ] ++ (lib.optionals isDarwin [
@@ -174,7 +176,7 @@ in {
     userName = "Aleksi";
     userEmail = "fabbycrafted@gmail.com";
     signing = {
-      key = "10516E721188A83A";
+      key = "A9BAB0E7787501CC";
       signByDefault = true;
     };
     aliases = {
