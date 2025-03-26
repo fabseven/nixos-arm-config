@@ -1,0 +1,65 @@
+font_family JetBrains Mono
+font_size 12.0
+
+#--------------------------------------------------------------------
+# Key bindings
+#--------------------------------------------------------------------
+# Clipboard
+map super+v             paste_from_clipboard
+map super+c             copy_or_interrupt
+
+# Screen
+map super+k combine : clear_terminal scroll active : send_text normal,application \x0c
+
+# Miscellaneous
+map super+equal      increase_font_size
+map super+minus    decrease_font_size
+map super+0 restore_font_size
+
+# Scrolling
+map super+shift+g       show_last_command_output
+map super+ctrl+p        scroll_to_prompt -1
+map super+ctrl+n        scroll_to_prompt 1
+
+#--------------------------------------------------------------------
+# Theme
+#--------------------------------------------------------------------
+# Based on https://github.com/sonph/onehalf
+# By https://github.com/dbinary
+
+foreground            #d0d0d0
+background            #202020
+selection_foreground  #202020
+selection_background  #303030
+
+# black
+color0   #000000
+color8   #000000
+
+# red
+color1   #ac4142
+color9   #ac4142
+
+# green
+color2   #7e8d50
+color10  #7e8d50
+
+# yellow
+color3   #e5b566
+color11  #e5b566
+
+# blue
+color4  #6c99ba
+color12 #6c99ba
+
+# magenta
+color5   #9e4e85
+color13  #9e4e85
+
+# cyan
+color6   #7dd5cf
+color14  #7dd5cf
+
+# white
+color7   #d0d0d0
+color15  #f5f5f5
